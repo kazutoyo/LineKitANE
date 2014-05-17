@@ -1,13 +1,16 @@
 # LineKitANE - Adobe Air Native Extension for iOS/Android #
 =============
+
 Send to [LINE](http://line.me/) for iOS/Android.
-This ANE uses [LineKit](https://github.com/dlackty/LineKit)
+This ANE use [LineKit](https://github.com/dlackty/LineKit)
+
 -------
 
 
 ## Share Text ##
 
 *Usage*
+
 	if (LineKitANE.isSupported) {
 		if (LineKitANE.getInstance().isInstalled()) {
 			LineKitANE.getInstance().shareText("LineKitANE Demo.");
@@ -17,6 +20,7 @@ This ANE uses [LineKit](https://github.com/dlackty/LineKit)
 ## Share Image ##
 
 *Usage*
+
 	if (LineKitANE.isSupported) {
 		if (LineKitANE.getInstance().isInstalled()) {
 			LineKitANE.getInstance().shareImage(new KazutoyoProfileImage());
