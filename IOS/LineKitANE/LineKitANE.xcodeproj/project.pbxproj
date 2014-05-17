@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC2B8FE1927474D008381B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B8FD1927474D008381B4 /* Foundation.framework */; };
+		3FC2B9001927474D008381B4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B8FF1927474D008381B4 /* CoreFoundation.framework */; };
+		3FC2B9021927474D008381B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9011927474D008381B4 /* UIKit.framework */; };
+		3FC2B9041927474D008381B4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9031927474D008381B4 /* MobileCoreServices.framework */; };
+		3FC2B9061927474D008381B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9051927474D008381B4 /* CoreGraphics.framework */; };
+		3FC2B9081927474D008381B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9071927474D008381B4 /* SystemConfiguration.framework */; };
+		3FC2B90A1927474D008381B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9091927474D008381B4 /* AudioToolbox.framework */; };
+		3FC2B90C1927474D008381B4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B90B1927474D008381B4 /* CFNetwork.framework */; };
+		3FC2B90E1927474D008381B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B90D1927474D008381B4 /* QuartzCore.framework */; };
+		3FC2B9101927474D008381B4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B90F1927474D008381B4 /* OpenGLES.framework */; };
+		3FC2B9121927474D008381B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9111927474D008381B4 /* CoreLocation.framework */; };
+		3FC2B9141927474D008381B4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9131927474D008381B4 /* CoreMedia.framework */; };
+		3FC2B9161927474D008381B4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9151927474D008381B4 /* CoreVideo.framework */; };
+		3FC2B9181927474D008381B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9171927474D008381B4 /* AVFoundation.framework */; };
+		3FC2B91A1927474D008381B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9191927474D008381B4 /* Security.framework */; };
+		3FC2B9201927474D008381B4 /* LineKitANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B91F1927474D008381B4 /* LineKitANE.m */; };
+		3FC2B92A1927482B008381B4 /* Line.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC2B9281927482B008381B4 /* Line.h */; };
+		3FC2B92B1927482B008381B4 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B9291927482B008381B4 /* Line.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FC2B8FA1927474D008381B4 /* libLineKitANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLineKitANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC2B8FD1927474D008381B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FC2B8FF1927474D008381B4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3FC2B9011927474D008381B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FC2B9031927474D008381B4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3FC2B9051927474D008381B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FC2B9071927474D008381B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3FC2B9091927474D008381B4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3FC2B90B1927474D008381B4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3FC2B90D1927474D008381B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FC2B90F1927474D008381B4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3FC2B9111927474D008381B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3FC2B9131927474D008381B4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3FC2B9151927474D008381B4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3FC2B9171927474D008381B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FC2B9191927474D008381B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3FC2B91D1927474D008381B4 /* LineKitANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LineKitANE-Prefix.pch"; sourceTree = "<group>"; };
+		3FC2B91E1927474D008381B4 /* LineKitANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineKitANE.h; sourceTree = "<group>"; };
+		3FC2B91F1927474D008381B4 /* LineKitANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineKitANE.m; sourceTree = "<group>"; };
+		3FC2B9211927474D008381B4 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		3FC2B9281927482B008381B4 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		3FC2B9291927482B008381B4 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC2B8F71927474D008381B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC2B9141927474D008381B4 /* CoreMedia.framework in Frameworks */,
+				3FC2B91A1927474D008381B4 /* Security.framework in Frameworks */,
+				3FC2B9001927474D008381B4 /* CoreFoundation.framework in Frameworks */,
+				3FC2B9121927474D008381B4 /* CoreLocation.framework in Frameworks */,
+				3FC2B9041927474D008381B4 /* MobileCoreServices.framework in Frameworks */,
+				3FC2B9161927474D008381B4 /* CoreVideo.framework in Frameworks */,
+				3FC2B90C1927474D008381B4 /* CFNetwork.framework in Frameworks */,
+				3FC2B9021927474D008381B4 /* UIKit.framework in Frameworks */,
+				3FC2B9061927474D008381B4 /* CoreGraphics.framework in Frameworks */,
+				3FC2B9101927474D008381B4 /* OpenGLES.framework in Frameworks */,
+				3FC2B90A1927474D008381B4 /* AudioToolbox.framework in Frameworks */,
+				3FC2B9081927474D008381B4 /* SystemConfiguration.framework in Frameworks */,
+				3FC2B8FE1927474D008381B4 /* Foundation.framework in Frameworks */,
+				3FC2B9181927474D008381B4 /* AVFoundation.framework in Frameworks */,
+				3FC2B90E1927474D008381B4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC2B8F11927474D008381B4 = {
+			isa = PBXGroup;
+			children = (
+				3FC2B91B1927474D008381B4 /* LineKitANE */,
+				3FC2B8FC1927474D008381B4 /* Frameworks */,
+				3FC2B8FB1927474D008381B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC2B8FB1927474D008381B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B8FA1927474D008381B4 /* libLineKitANE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC2B8FC1927474D008381B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B8FD1927474D008381B4 /* Foundation.framework */,
+				3FC2B8FF1927474D008381B4 /* CoreFoundation.framework */,
+				3FC2B9011927474D008381B4 /* UIKit.framework */,
+				3FC2B9031927474D008381B4 /* MobileCoreServices.framework */,
+				3FC2B9051927474D008381B4 /* CoreGraphics.framework */,
+				3FC2B9071927474D008381B4 /* SystemConfiguration.framework */,
+				3FC2B9091927474D008381B4 /* AudioToolbox.framework */,
+				3FC2B90B1927474D008381B4 /* CFNetwork.framework */,
+				3FC2B90D1927474D008381B4 /* QuartzCore.framework */,
+				3FC2B90F1927474D008381B4 /* OpenGLES.framework */,
+				3FC2B9111927474D008381B4 /* CoreLocation.framework */,
+				3FC2B9131927474D008381B4 /* CoreMedia.framework */,
+				3FC2B9151927474D008381B4 /* CoreVideo.framework */,
+				3FC2B9171927474D008381B4 /* AVFoundation.framework */,
+				3FC2B9191927474D008381B4 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC2B91B1927474D008381B4 /* LineKitANE */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9271927482B008381B4 /* LineKit */,
+				3FC2B91E1927474D008381B4 /* LineKitANE.h */,
+				3FC2B91F1927474D008381B4 /* LineKitANE.m */,
+				3FC2B91C1927474D008381B4 /* Supporting Files */,
+			);
+			path = LineKitANE;
+			sourceTree = "<group>";
+		};
+		3FC2B91C1927474D008381B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B91D1927474D008381B4 /* LineKitANE-Prefix.pch */,
+				3FC2B9211927474D008381B4 /* platformoptions.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FC2B9271927482B008381B4 /* LineKit */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9281927482B008381B4 /* Line.h */,
+				3FC2B9291927482B008381B4 /* Line.m */,
+			);
+			name = LineKit;
+			path = LineKit/LineKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FC2B8F81927474D008381B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC2B92A1927482B008381B4 /* Line.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FC2B8F91927474D008381B4 /* LineKitANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC2B9241927474D008381B4 /* Build configuration list for PBXNativeTarget "LineKitANE" */;
+			buildPhases = (
+				3FC2B8F61927474D008381B4 /* Sources */,
+				3FC2B8F71927474D008381B4 /* Frameworks */,
+				3FC2B8F81927474D008381B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LineKitANE;
+			productName = LineKitANE;
+			productReference = 3FC2B8FA1927474D008381B4 /* libLineKitANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC2B8F21927474D008381B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 3FC2B8F51927474D008381B4 /* Build configuration list for PBXProject "LineKitANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FC2B8F11927474D008381B4;
+			productRefGroup = 3FC2B8FB1927474D008381B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC2B8F91927474D008381B4 /* LineKitANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC2B8F61927474D008381B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC2B9201927474D008381B4 /* LineKitANE.m in Sources */,
+				3FC2B92B1927482B008381B4 /* Line.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FC2B9221927474D008381B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/kazutoyo/flexsdk/AIRSDK4.0.0.1628/include/;
+			};
+			name = Debug;
+		};
+		3FC2B9231927474D008381B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/kazutoyo/flexsdk/AIRSDK4.0.0.1628/include/;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC2B9251927474D008381B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LineKitANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LineKitANE/LineKitANE-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FC2B9261927474D008381B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LineKitANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LineKitANE/LineKitANE-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC2B8F51927474D008381B4 /* Build configuration list for PBXProject "LineKitANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC2B9221927474D008381B4 /* Debug */,
+				3FC2B9231927474D008381B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC2B9241927474D008381B4 /* Build configuration list for PBXNativeTarget "LineKitANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC2B9251927474D008381B4 /* Debug */,
+				3FC2B9261927474D008381B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC2B8F21927474D008381B4 /* Project object */;
+}

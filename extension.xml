@@ -1,0 +1,30 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>jp.kazutoyo.LineKitANE</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+			<nativeLibrary>libLineKitANE.jar</nativeLibrary>
+			<initializer>jp.kazutoyo.LineKitANE.LineKitANEExtension</initializer>
+			<finalizer>jp.kazutoyo.LineKitANE.LineKitANEExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+			<nativeLibrary>libLineKitANE.a</nativeLibrary>
+			<initializer>LineKitANEExtInitializer</initializer>
+			<finalizer>LineKitANEExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+			<nativeLibrary>libLineKitANE.a</nativeLibrary>
+			<initializer>LineKitANEExtInitializer</initializer>
+			<finalizer>LineKitANEExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>

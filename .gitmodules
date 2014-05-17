@@ -1,0 +1,3 @@
+[submodule "IOS/LineKitANE/LineKitANE/LineKit"]
+	path = IOS/LineKitANE/LineKitANE/LineKit
+	url = https://github.com/dlackty/LineKit.git
